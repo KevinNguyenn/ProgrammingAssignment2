@@ -45,7 +45,7 @@ cacheSolve <- function(x, ...) {
 		inverse_x <- solve(x$get())
 		## set the computed inverse matrix to be the inverse matrix
 		x$setinverse(inverse_x)
-		## rethrn the computed inverse matrix
+		## return the computed inverse matrix
 		return(inverse_x)
 	}
 }
